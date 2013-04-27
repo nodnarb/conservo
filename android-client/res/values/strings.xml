@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Conservo</string>
+    <string name="login_button_text">Login</string>
+    <string name="signup_button_text">Sign Up</string>
+</resources>
