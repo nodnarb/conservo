@@ -13,6 +13,17 @@ public class LaunchActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        Score.waterConsumptionScore = 100;
+        Score.waterAuditScore = 100;
+        Score.waterProjectsScore = 100;
+        Score.faucetsAndFixturesScore = 100;
+        Score.landscapeScore = 100;
+        Score.goalsScore = 100;
+        Score.sewerCreditsScore = 75;
+        Score.reUseScore = 30;
+        Score.rebatesScore = 75;
+        Score.innovationScore = 100;
+        Score.coolingTowerEffortsScore = 100;
     }
 
     public void onSignupClicked(View view) {
@@ -20,8 +31,8 @@ public class LaunchActivity extends Activity {
     }
 
     public void onLoginClicked(View view) {
-        Intent profileIntent = new Intent(this, ProfileActivity.class);
-        startActivity(profileIntent);
+        Intent scoreIntent = new Intent(this, ScoreActivity.class);
+        startActivity(scoreIntent);
         finish();
     }
 }
