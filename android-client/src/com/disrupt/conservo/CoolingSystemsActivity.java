@@ -1,14 +1,10 @@
 package com.disrupt.conservo;
 
-import android.R;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
-import android.app.Activity;
-import android.content.Intent;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
 import android.widget.CheckBox;
+import android.widget.RadioButton;
 
 /**
  *  @author Skylar Castator
@@ -29,16 +25,18 @@ public class CoolingSystemsActivity extends Activity {
         // Check which checkbox was clicked
         switch(view.getId()) {
                 case R.id.coolingtowercheckbox_1:
-                    if (checked)
+                    if (checked){
                         // Put Add next question
-                    else
+                    } else {
                         // Continue to Results
+                    }
                     break;
                 case R.id.coolingtowercheckbox_2:
-                    if (checked)
+                    if (checked) {
                         // Put Add next question
-                    else
+                    } else {
                         // Continue to Results
+                    }
                     break;
             }
         }

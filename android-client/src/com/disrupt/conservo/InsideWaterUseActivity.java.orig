@@ -23,6 +23,7 @@ public class InsideWaterUseActivity extends Activity {
         // Check which radio button was clicked
         switch(view.getId()) {
             case R.id.InsideWater_radio0:
+<<<<<<< HEAD
                 if (checked)
                     //Faucet Aerators 0
                 	Score.faucetsAndFixturesScore = 0;
@@ -87,6 +88,71 @@ public class InsideWaterUseActivity extends Activity {
                 if (checked)
                     // Automatic Control 100
                 	TotalTolietriesScore += 100;
+=======
+                if (checked) {
+                    // Pirates are the best
+                }
+                break;
+            case R.id.InsideWater_radio1:
+                if (checked) {
+                    // Ninjas rule
+                }
+                break;
+            case R.id.InsideWater_radio2:
+                if (checked) {
+                    // Ninjas rule
+                }
+                break;
+            case R.id.InsideWater_radio3:
+                if (checked) {
+                    // Ninjas rule
+                }
+                break;
+            case R.id.InsideWater2_radio0:
+                if (checked) {
+                    // Pirates are the best
+                }
+                break;
+            case R.id.InsideWater2_radio1:
+                if (checked) {
+                    // Ninjas rule
+                }
+                break;
+            case R.id.InsideWater2_radio2:
+                if (checked) {
+                    // Ninjas rule
+                }
+                break;
+            case R.id.InsideWater3_radio0:
+                if (checked) {
+                    // Ninjas rule
+                }
+                break;
+            case R.id.InsideWater3_radio1:
+                if (checked) {
+                    // Pirates are the best
+                }
+                break;
+            case R.id.InsideWater3_radio2:
+                if (checked) {
+                    // Ninjas rule
+                }
+                break;
+            case R.id.InsideWater4_radio0:
+                if (checked) {
+                    // Ninjas rule
+                }
+                break;
+            case R.id.InsideWater4_radio1:
+                if (checked) {
+                    // Ninjas rule
+                }
+                break;
+            case R.id.InsideWater4_radio2:
+                if (checked) {
+                    // Ninjas rule
+                }
+>>>>>>> c8ba1b2fde861679de57b5d557e39a782913dd54
                 break;
                 
                 //Send Full Value to score

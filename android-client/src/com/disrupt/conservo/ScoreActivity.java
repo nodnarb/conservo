@@ -1,12 +1,10 @@
 package com.disrupt.conservo;
 
-import com.disrupt.conservo.R;
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
+import android.view.*;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.ProgressBar;
@@ -45,6 +43,23 @@ public class ScoreActivity extends Activity {
         mScoreListStrings.add("Rebates Score");
         mScoreListStrings.add("Innovation Score");
         mScoreListStrings.add("Cooling Tower Efforts Score");
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.score_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onMenuItemSelected(int featureId, MenuItem item) {
+        if (item.getItemId() == R.id.menu_item_new_scoring) {
+            Intent scoringStartIntent = new Intent(this, LocationDataActivity.class);
+            startActivity(scoringStartIntent);
+            return true;
+        }
+        return false;
     }
 
     private class ScoreArrayAdapter extends BaseAdapter {

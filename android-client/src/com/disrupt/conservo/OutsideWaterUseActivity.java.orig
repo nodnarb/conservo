@@ -21,6 +21,7 @@ public class OutsideWaterUseActivity extends Activity {
         // Check which radio button was clicked
         switch(view.getId()) {
             case R.id.OutsideWater_radio0:
+<<<<<<< HEAD
                 if (checked)
                     // 0
                 	Score.landscapeScore = 0;
@@ -39,6 +40,26 @@ public class OutsideWaterUseActivity extends Activity {
                 if (checked)
                     // 75
                 	Score.landscapeScore = 75;
+=======
+                if (checked) {
+                    // Pirates are the best
+                }
+                break;
+            case R.id.OutsideWater_radio1:
+                if (checked) {
+                    // Ninjas rule
+                }
+                break;
+            case R.id.OutsideWater_radio2:
+                if (checked) {
+                    // Ninjas rule
+                }
+                break;
+            case R.id.OutsideWater_radio3:
+                if (checked) {
+                    // Ninjas rule
+                }
+>>>>>>> c8ba1b2fde861679de57b5d557e39a782913dd54
                 break;
         }
     }

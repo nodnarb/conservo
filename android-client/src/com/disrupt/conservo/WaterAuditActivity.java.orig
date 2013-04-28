@@ -20,6 +20,7 @@ public class WaterAuditActivity extends Activity {
         
         // Check which radio button was clicked
         switch(view.getId()) {
+<<<<<<< HEAD
             case R.id.LastAudit_0:
                 if (checked)
                     //Water Audit 0
@@ -54,6 +55,42 @@ public class WaterAuditActivity extends Activity {
                 if (checked)
                     //Water Project 100
                 	Score.waterProjectsScore = 100;
+=======
+            case R.id.LastAudit_radio0:
+                if (checked) {
+                    // Pirates are the best
+                }
+                break;
+            case R.id.LastAudit_radio1:
+                if (checked) {
+                    // Ninjas rule
+                }
+                break;
+            case R.id.LastAudit_radio2:
+                if (checked) {
+                    // Ninjas rule
+                }
+                break;
+            case R.id.AuditProject_radio0:
+                if (checked) {
+                    // Ninjas rule
+                }
+                break;
+            case R.id.AuditProject_radio1:
+                if (checked) {
+                    // Pirates are the best
+                }
+                break;
+            case R.id.AuditProject_radio2:
+                if (checked) {
+                    // Ninjas rule
+                }
+                break;
+            case R.id.AuditProject_radio3:
+                if (checked) {
+                    // Ninjas rule
+                }
+>>>>>>> c8ba1b2fde861679de57b5d557e39a782913dd54
                 break;
         }
     }

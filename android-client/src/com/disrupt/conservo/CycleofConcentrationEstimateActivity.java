@@ -6,7 +6,7 @@ import android.os.Bundle;
 /**
  *  @author Skylar Castator
  */
-public class CycleofConcentrationEstimate extends Activity {
+public class CycleofConcentrationEstimateActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
