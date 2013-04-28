@@ -27,7 +27,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <CheckBox
-        android:id="@+id/checkBox1"
+        android:id="@+id/OtherOppertunities_checkBox1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CheckBox" />
@@ -40,7 +40,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <CheckBox
-        android:id="@+id/checkBox2"
+        android:id="@+id/OtherOppertunities_checkBox2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CheckBox" />
@@ -53,7 +53,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <CheckBox
-        android:id="@+id/checkBox3"
+        android:id="@+id/OtherOppertunities_checkBox3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CheckBox" />
@@ -66,7 +66,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <CheckBox
-        android:id="@+id/checkBox4"
+        android:id="@+id/OtherOppertunities_checkBox4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CheckBox" />
@@ -79,7 +79,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <CheckBox
-        android:id="@+id/checkBox5"
+        android:id="@+id/OtherOppertunities_checkBox5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CheckBox" />

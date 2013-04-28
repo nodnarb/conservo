@@ -1,5 +1,6 @@
 package com.disrupt.conservo;
 
+import com.disrupt.conservo.R;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;

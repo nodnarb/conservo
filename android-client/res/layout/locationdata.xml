@@ -63,7 +63,8 @@
     <EditText
         android:id="@+id/editText4_Edit"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:inputType="number" />
 
     <TextView
         android:id="@+id/m_BuildingType"
@@ -83,7 +84,7 @@
         android:id="@+id/m_Tenants_Edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="numberPassword" />
+        android:inputType="number" />
 
     <TextView
         android:id="@+id/m_SquareFootage"
@@ -97,6 +98,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="numberPassword" />
+        android:inputType="number" />
 
 </LinearLayout>

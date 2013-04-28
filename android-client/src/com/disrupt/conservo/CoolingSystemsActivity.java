@@ -6,24 +6,28 @@ import android.os.Bundle;
 import android.view.View;
 import android.app.Activity;
 import android.content.Intent;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+import android.widget.CheckBox;
 
 /**
  *  @author Skylar Castator
  */
 public class CoolingSystemsActivity extends Activity {
-    public void onCreate(Bundle savedInstanceState) {
+    
+	public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.coolingsystem);
     }
 
         
-        //Cooling Tower CheckBox
-        public void onCheckboxClicked(View view) {
-            // Is the view now checked?
-            boolean checked = ((CheckBox) view).isChecked();
+    //Cooling Tower CheckBox
+    public void onCheckboxClicked(View view) {
+        // Is the view now checked?
+       boolean checked = ((CheckBox) view).isChecked();
             
-            // Check which checkbox was clicked
-            switch(view.getId()) {
+        // Check which checkbox was clicked
+        switch(view.getId()) {
                 case R.id.coolingtowercheckbox_1:
                     if (checked)
                         // Put Add next question
