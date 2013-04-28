@@ -24,9 +24,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" >
-            </LinearLayout>
-
-    <TextView
+                
+                    <TextView
         android:id="@+id/coolingtower_text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -118,6 +117,10 @@
         android:text="IF YES, ADD A GENERAL QUESTION ABOUT ITS USE (i.e. in use, not in use, etc.)"
         android:textAppearance="?android:attr/textAppearanceMedium" />
             
+                
+            </LinearLayout>
+
+
         </LinearLayout>
     </ScrollView>
 

@@ -23,19 +23,23 @@ public class OutsideWaterUseActivity extends Activity {
         switch(view.getId()) {
             case R.id.OutsideWater_radio0:
                 if (checked)
-                    // Pirates are the best
+                    // 0
+                	Score.landscapeScore = 0;
                 break;
             case R.id.OutsideWater_radio1:
                 if (checked)
-                    // Ninjas rule
+                    // 100
+                	Score.landscapeScore = 100;
                 break;
             case R.id.OutsideWater_radio2:
                 if (checked)
-                    // Ninjas rule
+                    // 85
+                	Score.landscapeScore = 85;
                 break;
             case R.id.OutsideWater_radio3:
                 if (checked)
-                    // Ninjas rule
+                    // 75
+                	Score.landscapeScore = 75;
                 break;
         }
     }

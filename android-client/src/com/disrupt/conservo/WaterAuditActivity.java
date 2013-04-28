@@ -23,31 +23,38 @@ public class WaterAuditActivity extends Activity {
         switch(view.getId()) {
             case R.id.LastAudit_0:
                 if (checked)
-                    // Pirates are the best
+                    //Water Audit 0
+                	Score.waterAuditScore = 0;
                 break;
             case R.id.LastAudit_1:
                 if (checked)
-                    // Ninjas rule
+                    //Water Audit 80
+                	Score.waterAuditScore = 80;
                 break;
             case R.id.LastAudit_2:
                 if (checked)
-                    // Ninjas rule
+                    //Water Audit 100
+                	Score.waterAuditScore = 100;
                 break;
             case R.id.AuditProject_radio0:
                 if (checked)
-                    // Ninjas rule
+                    //Water Project 0
+                	Score.waterProjectsScore = 0;
                 break;
             case R.id.AuditProject_radio1:
                 if (checked)
-                    // Pirates are the best
+                    //Water Project 75
+                	Score.waterProjectsScore = 75;
                 break;
             case R.id.AuditProject_radio2:
                 if (checked)
-                    // Ninjas rule
+                    //Water Project 85
+                	Score.waterProjectsScore = 85;
                 break;
             case R.id.AuditProject_radio3:
                 if (checked)
-                    // Ninjas rule
+                    //Water Project 100
+                	Score.waterProjectsScore = 100;
                 break;
         }
     }

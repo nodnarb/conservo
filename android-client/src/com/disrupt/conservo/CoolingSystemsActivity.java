@@ -51,19 +51,23 @@ public class CoolingSystemsActivity extends Activity {
             switch(view.getId()) {
                 case R.id.WaterEfficiencyradio_0:
                     if (checked)
-                        // Pirates are the best
+                        // 0
+                    	Score.coolingTowerEffortsScore = 0;
                     break;
                 case R.id.WaterEfficiencyradio_1:
                     if (checked)
-                        // Ninjas rule
+                        // 80
+                    	Score.coolingTowerEffortsScore = 80;
                     break;
                 case R.id.WaterEfficiencyradio_2:
                     if (checked)
-                        // Ninjas rule
+                        // 90
+                    	Score.coolingTowerEffortsScore = 90;
                     break;
                 case R.id.WaterEfficiencyradio_3:
                     if (checked)
-                        // Ninjas rule
+                        // 100
+                    	Score.coolingTowerEffortsScore = 100;
                     break;
             }
         }
