@@ -1,6 +1,5 @@
 package com.disrupt.conservo;
 
-import com.disrupt.conservo.R;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -56,7 +55,7 @@ public class ScoreActivity extends Activity {
     @Override
     public boolean onMenuItemSelected(int featureId, MenuItem item) {
         if (item.getItemId() == R.id.menu_item_new_scoring) {
-            Intent scoringStartIntent = new Intent(this, QuestionnaireActivity.class);
+            Intent scoringStartIntent = new Intent(this, LocationDataActivity.class);
             startActivity(scoringStartIntent);
             return true;
         }

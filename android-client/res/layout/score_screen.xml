@@ -13,7 +13,7 @@
               />
 
     <ListView
-        android:id="@+id/ScoreListView"
+        android:id="@+id/score_list_view"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_alignParentLeft="true"

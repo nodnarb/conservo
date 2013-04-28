@@ -1,6 +1,5 @@
 package com.disrupt.conservo;
 
-import android.R;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
@@ -22,20 +21,24 @@ public class OutsideWaterUseActivity extends Activity {
         // Check which radio button was clicked
         switch(view.getId()) {
             case R.id.OutsideWater_radio0:
-                if (checked)
+                if (checked) {
                     // Pirates are the best
+                }
                 break;
             case R.id.OutsideWater_radio1:
-                if (checked)
+                if (checked) {
                     // Ninjas rule
+                }
                 break;
             case R.id.OutsideWater_radio2:
-                if (checked)
+                if (checked) {
                     // Ninjas rule
+                }
                 break;
             case R.id.OutsideWater_radio3:
-                if (checked)
+                if (checked) {
                     // Ninjas rule
+                }
                 break;
         }
     }

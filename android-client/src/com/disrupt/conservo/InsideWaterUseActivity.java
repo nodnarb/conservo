@@ -1,6 +1,5 @@
 package com.disrupt.conservo;
 
-import android.R;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
@@ -22,56 +21,69 @@ public class InsideWaterUseActivity extends Activity {
         // Check which radio button was clicked
         switch(view.getId()) {
             case R.id.InsideWater_radio0:
-                if (checked)
+                if (checked) {
                     // Pirates are the best
+                }
                 break;
             case R.id.InsideWater_radio1:
-                if (checked)
+                if (checked) {
                     // Ninjas rule
+                }
                 break;
             case R.id.InsideWater_radio2:
-                if (checked)
+                if (checked) {
                     // Ninjas rule
+                }
                 break;
             case R.id.InsideWater_radio3:
-                if (checked)
+                if (checked) {
                     // Ninjas rule
+                }
                 break;
             case R.id.InsideWater2_radio0:
-                if (checked)
+                if (checked) {
                     // Pirates are the best
+                }
                 break;
             case R.id.InsideWater2_radio1:
-                if (checked)
+                if (checked) {
                     // Ninjas rule
+                }
                 break;
             case R.id.InsideWater2_radio2:
-                if (checked)
+                if (checked) {
                     // Ninjas rule
+                }
                 break;
             case R.id.InsideWater3_radio0:
-                if (checked)
+                if (checked) {
                     // Ninjas rule
+                }
                 break;
             case R.id.InsideWater3_radio1:
-                if (checked)
+                if (checked) {
                     // Pirates are the best
+                }
                 break;
             case R.id.InsideWater3_radio2:
-                if (checked)
+                if (checked) {
                     // Ninjas rule
+                }
                 break;
             case R.id.InsideWater4_radio0:
-                if (checked)
+                if (checked) {
                     // Ninjas rule
+                }
                 break;
             case R.id.InsideWater4_radio1:
-                if (checked)
+                if (checked) {
                     // Ninjas rule
+                }
                 break;
             case R.id.InsideWater4_radio2:
-                if (checked)
+                if (checked) {
                     // Ninjas rule
+                }
                 break;
         }
     }
