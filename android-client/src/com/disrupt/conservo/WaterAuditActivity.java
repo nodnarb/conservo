@@ -3,15 +3,29 @@ package com.disrupt.conservo;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.RadioButton;
 
 /**
  *  @author Skylar Castator
  */
 public class WaterAuditActivity extends Activity {
+	
+	Button mButton;
+	
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState); 
         setContentView(R.layout.wateraudit);
+        
+        mButton = (Button)findViewById(R.id.m_submitButton);
+
+        mButton.setOnClickListener(
+            new View.OnClickListener()
+            {
+                public void onClick(View view)
+                {
+                }
+            });
     }
     
     public void onRadioButtonClicked(View view) {

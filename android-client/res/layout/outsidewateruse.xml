@@ -61,5 +61,10 @@
             android:text="System is checked to ensure no leaks" />
     </RadioGroup>
 
+    <Button
+        android:id="@+id/m_submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
 
 </LinearLayout>

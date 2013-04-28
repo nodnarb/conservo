@@ -23,17 +23,6 @@
             android:layout_height="match_parent"
             android:orientation="vertical" >
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.98" >
-
-                <Button
-                    android:id="@+id/button1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Submit" />
-
                 <TextView
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
@@ -110,7 +99,13 @@
                         android:layout_height="wrap_content"
                         android:text="We’ve done them all!" />
                 </RadioGroup>
-            </LinearLayout>
+                
+                
+                <Button
+                    android:id="@+id/m_submitButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Submit" />
         </LinearLayout>
 
     </ScrollView>

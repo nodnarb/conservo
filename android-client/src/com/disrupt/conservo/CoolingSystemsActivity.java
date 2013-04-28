@@ -2,8 +2,11 @@ package com.disrupt.conservo;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.RadioButton;
 
 /**
@@ -11,9 +14,22 @@ import android.widget.RadioButton;
  */
 public class CoolingSystemsActivity extends Activity {
     
+	Button mButton;
+	
 	public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.coolingsystem);
+        
+        
+        mButton = (Button)findViewById(R.id.m_submitButton);
+
+        mButton.setOnClickListener(
+            new View.OnClickListener()
+            {
+                public void onClick(View view)
+                {
+                }
+            });
     }
 
         

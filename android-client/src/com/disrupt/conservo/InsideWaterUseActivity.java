@@ -3,6 +3,7 @@ package com.disrupt.conservo;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.RadioButton;
 
 /**
@@ -11,10 +12,21 @@ import android.widget.RadioButton;
 public class InsideWaterUseActivity extends Activity {
 	
 	public int TotalTolietriesScore; 
+	Button mButton;
 	
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.insidewateruse);
+        
+        mButton = (Button)findViewById(R.id.m_submitButton);
+
+        mButton.setOnClickListener(
+            new View.OnClickListener()
+            {
+                public void onClick(View view)
+                {
+                }
+            });
     }
     
     public void onRadioButtonClicked(View view) {
