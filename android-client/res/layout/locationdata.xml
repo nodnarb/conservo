@@ -6,7 +6,7 @@
 
     <TextView
         android:id="@+id/m_LocationDataTitle"
-        android:layout_width="match_parent"
+        android:layout_width="532dp"
         android:layout_height="match_parent"
         android:gravity="center"
         android:text="Basic Info"
@@ -20,7 +20,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/m_PropertyManagerName_NameEdit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName" >
@@ -36,7 +36,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/m_StreetAddress_Edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPostalAddress" />
@@ -49,7 +49,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/m_CityState_Edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -61,9 +61,10 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/editText4_Edit"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:inputType="number" />
 
     <TextView
         android:id="@+id/m_BuildingType"
@@ -80,10 +81,10 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/m_Tenants_Edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="numberPassword" />
+        android:inputType="number" />
 
     <TextView
         android:id="@+id/m_SquareFootage"
@@ -93,9 +94,10 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/m_SquareFootage_Edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="numberPassword" />
+        android:ems="10"
+        android:inputType="number" />
 
 </LinearLayout>

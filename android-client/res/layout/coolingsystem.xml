@@ -1,109 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
     <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
+        android:id="@+id/coolingsystemtitle"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="Cooling System"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/coolingtower_text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Does your building use a cooling tower?"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <CheckBox
-        android:id="@+id/checkBox2"
+        android:id="@+id/coolingtowercheckbox_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CheckBox" />
 
-    <RadioGroup
-        android:id="@+id/radioGroup1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
-    </RadioGroup>
-
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/coolingtower_text2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="If yes, these questions appear.  If no, proceed to Results section."
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/coolingtower_text3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="What are your current average Cycles of Concentration (COC)? "
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/coolingtower_text4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="What cooling tower water efficiency efforts have you done?:"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <RadioGroup
-        android:id="@+id/radioGroup2"
+        android:id="@+id/WaterEfficiencyradioGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
 
         <RadioButton
-            android:id="@+id/radio0"
+            android:id="@+id/WaterEfficiencyradio_0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
             android:text="None" />
 
         <RadioButton
-            android:id="@+id/radio1"
+            android:id="@+id/WaterEfficiencyradio_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Blow-down is measured/monitored and Preventative Maintenance is done" />
 
         <RadioButton
-            android:id="@+id/radio2"
+            android:id="@+id/WaterEfficiencyradio_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Maintenance is optimized to reduce blow-down" />
         
         <RadioButton
-            android:id="@+id/radio2"
+            android:id="@+id/WaterEfficiencyradio_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="System design to minimize blow-down (special tech)" />
     </RadioGroup>
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/coolingtower_text5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="NEED TO ADD A QUESTION ALONG THE LINES OF:"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/coolingtower_text6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Do you have an economizer/free-air cooling system?"
         android:textAppearance="?android:attr/textAppearanceMedium" />    
     
     <CheckBox
-        android:id="@+id/checkBox1"
+        android:id="@+id/coolingtowercheckbox_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CheckBox" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/coolingtower_text7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="IF YES, ADD A GENERAL QUESTION ABOUT ITS USE (i.e. in use, not in use, etc.)"

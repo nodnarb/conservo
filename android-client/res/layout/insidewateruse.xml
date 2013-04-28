@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:gravity="center_vertical"
+        android:gravity="center"
         android:text="Inside Water Use"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
@@ -33,26 +33,26 @@
         android:layout_height="wrap_content" >
 
         <RadioButton
-            android:id="@+id/radio0"
+            android:id="@+id/InsideWater_radio0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
             android:text="None" />
 
         <RadioButton
-            android:id="@+id/radio1"
+            android:id="@+id/InsideWater_radio1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Low-flow aerators installed on less than 50 faucets" />
 
         <RadioButton
-            android:id="@+id/radio2"
+            android:id="@+id/InsideWater_radio2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Low-flow aerators installed on between 50-74% faucets" />
         
     	<RadioButton
-            android:id="@+id/radio3"
+            android:id="@+id/InsideWater_radio3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Low-flow aerators installed on between 75-100% faucets" />
@@ -77,20 +77,20 @@
         android:layout_height="wrap_content" >
 
         <RadioButton
-            android:id="@+id/radio0"
+            android:id="@+id/InsideWater2_radio0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
             android:text="None" />
 
         <RadioButton
-            android:id="@+id/radio1"
+            android:id="@+id/InsideWater2_radio1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="More than 50%" />
 
         <RadioButton
-            android:id="@+id/radio2"
+            android:id="@+id/InsideWater2_radio2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="All of them" />
@@ -108,20 +108,20 @@
         android:layout_height="wrap_content" >
 
         <RadioButton
-            android:id="@+id/radio0"
+            android:id="@+id/InsideWater3_radio0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
             android:text="None" />
 
         <RadioButton
-            android:id="@+id/radio1"
+            android:id="@+id/InsideWater3_radio1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="More than 50%" />
 
         <RadioButton
-            android:id="@+id/radio2"
+            android:id="@+id/InsideWater3_radio2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="All of them" />
@@ -140,20 +140,20 @@
         android:layout_height="wrap_content" >
 
         <RadioButton
-            android:id="@+id/radio0"
+            android:id="@+id/InsideWater4_radio0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
             android:text="None" />
 
         <RadioButton
-            android:id="@+id/radio1"
+            android:id="@+id/InsideWater4_radio1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="More than 50%" />
 
         <RadioButton
-            android:id="@+id/radio2"
+            android:id="@+id/InsideWater4_radio2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="All of them" />

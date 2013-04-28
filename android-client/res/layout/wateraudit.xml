@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:gravity="center_vertical"
+        android:gravity="center"
         android:text="Water Audit and Projects"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
@@ -33,20 +33,20 @@
         android:layout_height="wrap_content" >
 
         <RadioButton
-            android:id="@+id/radio0"
+            android:id="@+id/LastAudit_radio0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
             android:text="Never" />
 
         <RadioButton
-            android:id="@+id/radio1"
+            android:id="@+id/LastAudit_radio1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Yes, but more than 3 years ago" />
 
         <RadioButton
-            android:id="@+id/radio2"
+            android:id="@+id/LastAudit_radio2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Yes, we’ve had a water audit in the last 3 years" />
@@ -65,26 +65,26 @@
         android:layout_height="wrap_content" >
 
         <RadioButton
-            android:id="@+id/radio0"
+            android:id="@+id/AuditProject_radio0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
             android:text="No projects identified " />
 
         <RadioButton
-            android:id="@+id/radio1"
+            android:id="@+id/AuditProject_radio1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Projects identified, but we haven’t done anything yet" />
 
         <RadioButton
-            android:id="@+id/radio2"
+            android:id="@+id/AuditProject_radio2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="We’ve done at least half of the identified projects" />
         
         <RadioButton
-            android:id="@+id/radio3"
+            android:id="@+id/AuditProject_radio3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="We’ve done them all!" />
