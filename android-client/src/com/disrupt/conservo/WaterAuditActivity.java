@@ -12,6 +12,8 @@ import android.widget.RadioButton;
 public class WaterAuditActivity extends Activity {
 	
 	Button mButton;
+	int m_WaterAuditScore;
+	int m_WaterProjectScore;
 	
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState); 
@@ -24,6 +26,8 @@ public class WaterAuditActivity extends Activity {
             {
                 public void onClick(View view)
                 {
+                	Score.waterAuditScore = m_WaterAuditScore;
+                	Score.waterProjectsScore = m_WaterProjectScore;
                 }
             });
     }
@@ -37,37 +41,37 @@ public class WaterAuditActivity extends Activity {
             case R.id.LastAudit_radio0:
                 if (checked)
                     //Water Audit 0
-                	Score.waterAuditScore = 0;
+                	m_WaterAuditScore = 0;
                 break;
             case R.id.LastAudit_radio1:
                 if (checked)
                     //Water Audit 80
-                	Score.waterAuditScore = 80;
+                	m_WaterAuditScore = 80;
                 break;
             case R.id.LastAudit_radio2:
                 if (checked)
                     //Water Audit 100
-                	Score.waterAuditScore = 100;
+                	m_WaterAuditScore = 100;
                 break;
             case R.id.AuditProject_radio0:
                 if (checked)
                     //Water Project 0
-                	Score.waterProjectsScore = 0;
+                	m_WaterProjectScore = 0;
                 break;
             case R.id.AuditProject_radio1:
                 if (checked)
                     //Water Project 75
-                	Score.waterProjectsScore = 75;
+                	m_WaterProjectScore = 75;
                 break;
             case R.id.AuditProject_radio2:
                 if (checked)
                     //Water Project 85
-                	Score.waterProjectsScore = 85;
+                	m_WaterProjectScore = 85;
                 break;
             case R.id.AuditProject_radio3:
                 if (checked)
                     //Water Project 100
-                	Score.waterProjectsScore = 100;
+                	m_WaterProjectScore = 100;
                 break;
         }
     }

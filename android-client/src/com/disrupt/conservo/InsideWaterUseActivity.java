@@ -11,6 +11,7 @@ import android.widget.RadioButton;
  */
 public class InsideWaterUseActivity extends Activity {
 	
+	int m_FaucetsScore;
 	public int TotalTolietriesScore; 
 	Button mButton;
 	
@@ -25,6 +26,7 @@ public class InsideWaterUseActivity extends Activity {
             {
                 public void onClick(View view)
                 {
+                	Score.faucetsAndFixturesScore = m_FaucetsScore;
                 }
             });
     }
@@ -38,22 +40,22 @@ public class InsideWaterUseActivity extends Activity {
             case R.id.InsideWater_radio0:
                 if (checked)
                     //Faucet Aerators 0
-                	Score.faucetsAndFixturesScore = 0;
+                	m_FaucetsScore = 0;
                 break;
             case R.id.InsideWater_radio1:
                 if (checked)
                     //Faucet Aerators 75
-                	Score.faucetsAndFixturesScore = 75;
+                	m_FaucetsScore = 75;
                 break;
             case R.id.InsideWater_radio2:
                 if (checked)
                     //Faucet Aerators 85
-                	Score.faucetsAndFixturesScore = 85;
+                	m_FaucetsScore = 85;
                 break;
             case R.id.InsideWater_radio3:
                 if (checked)
                     //Faucet Aerators 100
-                	Score.faucetsAndFixturesScore = 100;
+                	m_FaucetsScore = 100;
                 break;
             case R.id.InsideWater2_radio0:
                 if (checked)

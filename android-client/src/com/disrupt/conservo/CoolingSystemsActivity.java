@@ -15,6 +15,7 @@ import android.widget.RadioButton;
 public class CoolingSystemsActivity extends Activity {
     
 	Button mButton;
+	int m_CoolingTowerScore;
 	
 	public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +29,7 @@ public class CoolingSystemsActivity extends Activity {
             {
                 public void onClick(View view)
                 {
+                	Score.coolingTowerEffortsScore = m_CoolingTowerScore;
                 }
             });
     }
@@ -66,22 +68,22 @@ public class CoolingSystemsActivity extends Activity {
                 case R.id.WaterEfficiencyradio_0:
                     if (checked)
                         // 0
-                    	Score.coolingTowerEffortsScore = 0;
+                    	m_CoolingTowerScore = 0;
                     break;
                 case R.id.WaterEfficiencyradio_1:
                     if (checked)
                         // 80
-                    	Score.coolingTowerEffortsScore = 80;
+                    	m_CoolingTowerScore = 80;
                     break;
                 case R.id.WaterEfficiencyradio_2:
                     if (checked)
                         // 90
-                    	Score.coolingTowerEffortsScore = 90;
+                    	m_CoolingTowerScore = 90;
                     break;
                 case R.id.WaterEfficiencyradio_3:
                     if (checked)
                         // 100
-                    	Score.coolingTowerEffortsScore = 100;
+                    	m_CoolingTowerScore = 100;
                     break;
             }
         }
