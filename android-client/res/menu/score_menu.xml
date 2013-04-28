@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_item_new_scoring"
+          android:showAsAction="ifRoom|withText"
+          android:icon="@drawable/ic_suggestions_add"
+          android:title="@string/new_scoring"/>
+</menu>
