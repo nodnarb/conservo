@@ -12,7 +12,10 @@ import android.widget.RadioButton;
 public class InsideWaterUseActivity extends Activity {
 	
 	int m_FaucetsScore;
-	public int TotalTolietriesScore; 
+	public int TotalTolietriesScore1;
+	public int TotalTolietriesScore2; 
+	public int TotalTolietriesScore3;
+	public int TotalTolietriesScoreTotal; 
 	Button mButton;
 	
     public void onCreate(Bundle savedInstanceState) {
@@ -26,7 +29,10 @@ public class InsideWaterUseActivity extends Activity {
             {
                 public void onClick(View view)
                 {
-                	Score.faucetsAndFixturesScore = m_FaucetsScore;
+                	TotalTolietriesScoreTotal = (((TotalTolietriesScore1 + TotalTolietriesScore2 + TotalTolietriesScore3)/300)*10);
+                	int FaucetsScoreTotal = ((m_FaucetsScore/100)* 10);
+                	//Facets are half, fixtures the other half
+                	Score.faucetsAndFixturesScore = FaucetsScoreTotal + TotalTolietriesScoreTotal;
                 }
             });
     }
@@ -60,48 +66,48 @@ public class InsideWaterUseActivity extends Activity {
             case R.id.InsideWater2_radio0:
                 if (checked)
                     // Low Flow 60
-                	TotalTolietriesScore += 60;
+                	TotalTolietriesScore1 += 60;
                 	
                 break;
             case R.id.InsideWater2_radio1:
                 if (checked)
                 	// Low Flow 80
-                	TotalTolietriesScore += 80;
+                	TotalTolietriesScore1 += 80;
                 break;
             case R.id.InsideWater2_radio2:
                 if (checked)
                 	// Low Flow 100
-                	TotalTolietriesScore += 100;
+                	TotalTolietriesScore1 += 100;
                 break;
             case R.id.InsideWater3_radio0:
                 if (checked)
                     //Ultra Low Flow 60
-                	TotalTolietriesScore += 60;
+                	TotalTolietriesScore2 += 60;
                 break;
             case R.id.InsideWater3_radio1:
                 if (checked)
                 	//Ultra Low Flow 60
-                	TotalTolietriesScore += 80;
+                	TotalTolietriesScore2 += 80;
                 break;
             case R.id.InsideWater3_radio2:
                 if (checked)
                 	//Ultra Low Flow 60
-                	TotalTolietriesScore += 100;
+                	TotalTolietriesScore2 += 100;
                 break;
             case R.id.InsideWater4_radio0:
                 if (checked)
                     // Automatic Control 60
-                	TotalTolietriesScore += 60;
+                	TotalTolietriesScore3 += 60;
                 break;
             case R.id.InsideWater4_radio1:
                 if (checked)
                     // Automatic Control 80
-                	TotalTolietriesScore += 80;
+                	TotalTolietriesScore3 += 80;
                 break;
             case R.id.InsideWater4_radio2:
                 if (checked)
                     // Automatic Control 100
-                	TotalTolietriesScore += 100;
+                	TotalTolietriesScore3 += 100;
                 break;
                 
                 //Send Full Value to score
