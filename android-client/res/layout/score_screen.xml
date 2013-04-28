@@ -3,6 +3,13 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent">
+    <TextView android:id="@+id/title_text"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="24sp"
+              android:text="Last Building Score"
+              android:gravity="center_horizontal"
+              android:layout_alignParentTop="true"/>
     <TextView android:id="@+id/big_grade"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
@@ -10,8 +17,11 @@
               android:textStyle="bold"
               android:text="B"
               android:layout_centerInParent="true"
+              android:layout_alignParentBottom="true"
               />
-    <ListView android:id="@+id/ScoreListView"
+    <ListView android:id="@+id/score_list_view"
               android:layout_width="fill_parent"
-              android:layout_height="fill_parent"/>
+              android:layout_height="fill_parent"
+              android:layout_below="@id/title_text"
+              android:layout_above="@id/big_grade"/>
 </RelativeLayout>

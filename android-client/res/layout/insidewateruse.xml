@@ -43,7 +43,7 @@
             android:id="@+id/radio1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Low-flow aerators installed on < 50 faucets" />
+            android:text="Low-flow aerators installed on less than 50 faucets" />
 
         <RadioButton
             android:id="@+id/radio2"
