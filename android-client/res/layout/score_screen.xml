@@ -11,4 +11,7 @@
               android:text="B"
               android:layout_centerInParent="true"
               />
+    <ListView android:id="@+id/ScoreListView"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"/>
 </RelativeLayout>
