@@ -4,13 +4,13 @@ import android.app.Activity;
 import android.os.Bundle;
 
 /**
- *  @author Brandon Dorris
+ * Created by Orbotix Inc.
+ * User: brandon
+ * Date: 4/27/13
+ * Time: 4:37 PM
  */
-public class ScoreActivity extends Activity {
+public class QuestionnaireActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.score_screen);
-
-
     }
 }

@@ -6,11 +6,9 @@ import android.os.Bundle;
 /**
  *  @author Brandon Dorris
  */
-public class ScoreActivity extends Activity {
+public class ProfileActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.score_screen);
-
-
+        setContentView(R.layout.profile_screen);
     }
 }
