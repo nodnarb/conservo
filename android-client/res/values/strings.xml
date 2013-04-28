@@ -3,4 +3,5 @@
     <string name="app_name">Conservo</string>
     <string name="login_button_text">Login</string>
     <string name="signup_button_text">Sign Up</string>
+    <string name="default_profile_title_text">Building Profile</string>
 </resources>

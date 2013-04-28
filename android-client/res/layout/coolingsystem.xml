@@ -68,7 +68,7 @@
             android:id="@+id/radio1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Blow-down is measured/monitored & Preventative Maintenance is done" />
+            android:text="Blow-down is measured/monitored and Preventative Maintenance is done" />
 
         <RadioButton
             android:id="@+id/radio2"

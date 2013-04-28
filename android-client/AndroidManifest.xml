@@ -13,6 +13,10 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ScoreActivity"/>
+        <activity android:name=".ScoreActivity"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:name=".ProfileActivity"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:name=".QuestionnaireActivity"/>
     </application>
 </manifest>
