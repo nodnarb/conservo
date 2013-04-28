@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-        >
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:animateLayoutChanges="false"
+    android:orientation="vertical" >
+
     <Button android:id="@+id/login_button"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -19,5 +20,42 @@
             android:onClick="onSignupClicked"
             android:layout_above="@id/login_button"
             android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="Welcome Back!"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/quickContactBadge1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/signup_button"
+        android:layout_alignTop="@+id/textView1"
+        android:src="@android:drawable/alert_dark_frame" />
+
+    <QuickContactBadge
+        android:id="@+id/quickContactBadge1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/signup_button"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="29dp" />
+
 </RelativeLayout>
 
