@@ -22,14 +22,31 @@
             android:gravity="center"  
             android:layout_span="6"></TextView>  
     </TableRow>  
-    <TableRow  
+    
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </LinearLayout>
+
+            <TableRow  
         android:layout_height="wrap_content"  
         android:id="@+id/tableRow2"  
         android:layout_width="match_parent">  
         <TextView  
             android:text="Month Num"  
             android:id="@+id/textView2"  
-            android:textStyle="bold"></TextView>  
+            android:textStyle="bold"></TextView>
   
         <EditText
         android:id="@+id/editText1"
@@ -41,7 +58,8 @@
         <requestFocus />
     </EditText>
     </TableRow>
-
-
+            
+        </LinearLayout>
+    </ScrollView>
 
 </TableLayout> 
