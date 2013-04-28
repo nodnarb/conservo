@@ -20,17 +20,17 @@ public class WaterAuditActivity extends Activity {
         
         // Check which radio button was clicked
         switch(view.getId()) {
-            case R.id.LastAudit_0:
+            case R.id.LastAudit_radio0:
                 if (checked)
                     //Water Audit 0
                 	Score.waterAuditScore = 0;
                 break;
-            case R.id.LastAudit_1:
+            case R.id.LastAudit_radio1:
                 if (checked)
                     //Water Audit 80
                 	Score.waterAuditScore = 80;
                 break;
-            case R.id.LastAudit_2:
+            case R.id.LastAudit_radio2:
                 if (checked)
                     //Water Audit 100
                 	Score.waterAuditScore = 100;

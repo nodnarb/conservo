@@ -9,16 +9,17 @@ import android.widget.RadioButton;
  *  @author Skylar Castator
  */
 public class InsideWaterUseActivity extends Activity {
+	
+	public int TotalTolietriesScore; 
+	
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.insidewateruse);
-        
     }
     
     public void onRadioButtonClicked(View view) {
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
-        int TotalTolietriesScore; 
         
         // Check which radio button was clicked
         switch(view.getId()) {

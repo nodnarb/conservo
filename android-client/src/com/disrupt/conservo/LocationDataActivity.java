@@ -22,7 +22,7 @@ public class LocationDataActivity extends Activity {
         setContentView(R.layout.locationdata);
         
         mButton = (Button)findViewById(R.id.m_submitButton);
-        mName   = (EditText)findViewById(R.id.edittext);
+        mName   = (EditText)findViewById(R.id.m_PropertyManagerName);
 
         mButton.setOnClickListener(
             new View.OnClickListener()
